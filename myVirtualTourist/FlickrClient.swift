@@ -273,10 +273,14 @@ class FlickrClient : NSObject {
                 
                 let fileURL = documentsDirectoryURL?.URLByAppendingPathComponent(fileName)
                 
-                coreDataPhoto.downloaded = imageData.writeToURL(fileURL!, atomically: true).hashValue
+                let downloaded = imageData.writeToURL(fileURL!, atomically: true).hashValue
                 
-                CoreDataStackManager.sharedInstance().saveContext()
+                if coreDataPhoto.fault == false {
                 
+                    coreDataPhoto.downloaded = downloaded
+                    
+                    CoreDataStackManager.sharedInstance().saveContext()
+                }
             }
         }
         
