@@ -19,10 +19,10 @@
 		DA396D131C972D520027293D /* Pin.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA396D121C972D520027293D /* Pin.swift */; };
 		DA396D151C9745D20027293D /* Region.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA396D141C9745D20027293D /* Region.swift */; };
 		DA396D171C976FC00027293D /* FlickrClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA396D161C976FC00027293D /* FlickrClient.swift */; };
-		DA396D191C9864BD0027293D /* Photo.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA396D181C9864BD0027293D /* Photo.swift */; };
 		DA396D1B1C98913C0027293D /* PhotoAlbumViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA396D1A1C98913C0027293D /* PhotoAlbumViewController.swift */; };
 		DA396D1F1C989CEE0027293D /* FlickrCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA396D1E1C989CEE0027293D /* FlickrCollectionViewCell.swift */; };
 		DA396D211C98A4C50027293D /* MKTouristAnnotation.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA396D201C98A4C50027293D /* MKTouristAnnotation.swift */; };
+		DA396D231C9B320D0027293D /* Photo.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA396D221C9B320D0027293D /* Photo.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -61,10 +61,10 @@
 		DA396D121C972D520027293D /* Pin.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Pin.swift; sourceTree = "<group>"; };
 		DA396D141C9745D20027293D /* Region.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Region.swift; sourceTree = "<group>"; };
 		DA396D161C976FC00027293D /* FlickrClient.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FlickrClient.swift; sourceTree = "<group>"; };
-		DA396D181C9864BD0027293D /* Photo.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Photo.swift; path = ../Photo.swift; sourceTree = "<group>"; };
 		DA396D1A1C98913C0027293D /* PhotoAlbumViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PhotoAlbumViewController.swift; sourceTree = "<group>"; };
 		DA396D1E1C989CEE0027293D /* FlickrCollectionViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FlickrCollectionViewCell.swift; sourceTree = "<group>"; };
 		DA396D201C98A4C50027293D /* MKTouristAnnotation.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MKTouristAnnotation.swift; sourceTree = "<group>"; };
+		DA396D221C9B320D0027293D /* Photo.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Photo.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -155,7 +155,7 @@
 				DA396D161C976FC00027293D /* FlickrClient.swift */,
 				DA396D121C972D520027293D /* Pin.swift */,
 				DA396D141C9745D20027293D /* Region.swift */,
-				DA396D181C9864BD0027293D /* Photo.swift */,
+				DA396D221C9B320D0027293D /* Photo.swift */,
 			);
 			name = DataModel;
 			sourceTree = "<group>";
@@ -291,7 +291,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				DA396D191C9864BD0027293D /* Photo.swift in Sources */,
+				DA396D231C9B320D0027293D /* Photo.swift in Sources */,
 				DA396D131C972D520027293D /* Pin.swift in Sources */,
 				DA396D1B1C98913C0027293D /* PhotoAlbumViewController.swift in Sources */,
 				DA396CE11C97202A0027293D /* MapViewController.swift in Sources */,
@@ -526,6 +526,7 @@
 				DA396D051C97202A0027293D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		DA396D061C97202A0027293D /* Build configuration list for PBXNativeTarget "myVirtualTouristTests" */ = {
 			isa = XCConfigurationList;
@@ -534,6 +535,7 @@
 				DA396D081C97202A0027293D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		DA396D091C97202A0027293D /* Build configuration list for PBXNativeTarget "myVirtualTouristUITests" */ = {
 			isa = XCConfigurationList;
@@ -542,6 +544,7 @@
 				DA396D0B1C97202A0027293D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 
