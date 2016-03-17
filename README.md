@@ -1,6 +1,6 @@
 # myVirtualTourist
 
-App that can let a user pic a spot on the map and see Flickr images from that location. Part of Udacity coursework
+App that can let a user pick a spot on the map and see Flickr images from that location. Part of Udacity coursework
 
 ## Common Usage
 
