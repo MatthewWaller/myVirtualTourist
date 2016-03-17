@@ -11,7 +11,7 @@ Users can:
 - Remove images from the collection view by tapping on the image and then pressing the delete button
 - Get a new group of images.
 
-The app uses CoreData to persist both the images and the pins, and the images are removed from the device when deleted.
+The app uses CoreData to persist both the images and the pins, and images are removed from the device when deleted.
 
 ## Installation
 
